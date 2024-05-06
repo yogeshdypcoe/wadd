@@ -1,0 +1,14 @@
+jQuery provides a number of methods to manipulate DOM in efficient way. You do not need to write big and complex code to set or get the content of any HTML element.
+
+jQuery DOM Manipulation-
+jQuery provides methods such as attr(), html(), text() and val() which act as getters and setters to manipulate the content from HTML documents.
+
+Here are some basic operations which you can perform on DOM elements with the help of jQuery standard library methods −
+1.Extract the content of an element
+2.Change the content of an element
+3.Adding a child element under an existing element
+4.Adding a parent element above an existing element
+5.Adding an element before or after an existing element
+6.Replace an existing element with another element
+7.Delete an existing element
+8.Wrapping content with-in an element

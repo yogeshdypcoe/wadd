@@ -1,0 +1,19 @@
+#3. Ang Reg Form
+-> ng new RegisterForm --no-standalone --routing --ssr=false
+-> enter
+-> ng serve
+
+
+# 11 CRUD
+
+show dbs
+use student
+db.createCollection('profile')
+db.profile.insertOne({name:"Yogesh", email:"ymzade2019@gmail.com", age:21, city:"Nashik"})
+db.profile.find()
+
+npm init
+  - create index.js
+npm install mongodb
+  - create mongodb.js
+npm install express

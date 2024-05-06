@@ -1,0 +1,21 @@
+Node.js overview
+
+In basic terms, Node is an open source cross-platform library for server-side programming that permits clients to develop web applications rapidly. With Node, we can execute JavaScript applications or network applications. Its basic modules are engraved in JavaScript.
+It is generally utilized for server applications in real-time. Node.js permits JavaScript to execute locally on a machine or a server.
+Node.js gives numerous systems to utilize. One of such structures is Express.js. It is more valuable and mainstream than the different structures of Node.js.
+
+
+Features of Node.js
+•Versatility: Node is incredibly adaptable as the server reacts in a non-blocking way.
+•Zero Buffering: Applications yield the measurements in enormous pieces. This gives the advantage of ‘No buffering’ to developers.
+•Network: Node.js upholds an open-source community. This is the main explanation that numerous glorious modules have been added to Node.js applications over time.
+
+
+Express.js is a web application framework for Node.js. It provides various features that make web application development fast and easy which otherwise takes more time using only Node.js.
+Express.js is based on the Node.js middleware module called connect which in turn uses http module. So, any middleware which is based on connect will also work with Express.js.
+
+Advantages of Express.js
+1.Makes Node.js web application development fast and easy.
+2.Easy to configure and customize.
+3.Allows you to define routes of your application based on HTTP methods and URLs.
+

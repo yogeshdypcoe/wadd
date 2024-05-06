@@ -1,0 +1,14 @@
+jQuery Mobile
+
+JQuery Mobile is a user interface framework, built on jQuery Core and used for developing responsive websites or applications that are accessible on mobile, tablet, and desktop devices. It uses features of both jQuery and jQueryUI to provide API features for mobile web applications. This tutorial will teach you the basics of jQuery Mobile framework. We will also discuss some detailed concepts related to jQuery Mobile.
+
+Why Use jQuery Mobile?
+•It creates web applications that it will work the same way on the mobile, tablet, and desktop devices.
+•It is compatible with other frameworks such as PhoneGap, Whitelight, etc.
+•It provides a set of touch-friendly form inputs and UI widgets.
+
+
+Features of jQuery Mobile
+•It is built on jQuery Core and "write less, do more" UI framework.
+•It is an open source framework, and cross-platform as well as cross-browser compatible.
+•It is written in JavaScript and uses features of both jQuery and jQuery UI for building mobile-friendly sites.

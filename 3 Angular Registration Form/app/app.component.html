@@ -1,0 +1,13 @@
+<h1>Angular Registration form</h1>
+<div class="container">
+<form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+<input type="text" ngModel name="Username" id="username" placeholder="Enter the Username"/>
+<br/><br/>
+<input type="password" ngModel name="password" id="password" placeholder="Enter the Password"/>
+<br/><br/>
+<input type="email" ngModel name="Email" id="Email" placeholder="Email"/>
+<br/>
+<br/>
+<input type="submit" value="Registration">
+</form>
+</div>

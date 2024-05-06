@@ -1,0 +1,67 @@
+#1 GAE Launcher
+    -Enable App Engine Admin API
+    - git clone https://github.com/yogeshdypcoe/Gcloud-WebApp-GAE.git
+    -> python3 main.py
+
+
+#2 CloudSim
+    -dwnload cloudsim 3.0.3   https://github.com/Cloudslab/cloudsim/releases/download/cloudsim-3.0.3/cloudsim-3.0.3.zip
+    -download commons-math-3-3.6.1.jar   https://repo.maven.apache.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
+    -git clone https://github.com/Yogeshzade-git/cloudsim.git
+
+
+#3 Find a procedure to transfer the files from one virtual machine to another virtual machine.
+    -set NAT networks for both
+    -> ifconfig
+    -create file 
+    -> scp <send.txt> vagrant@10.0.2.4:/home/vagrant 
+    ** .vmdk
+    - https://drive.google.com/drive/u/0/folders/1me_nJJh0fvdDOXX3ew2jzGQpoP7f_iFt
+
+#5 Paas Environment deployment
+    -> npm run build
+
+#8 Find procedure to transfer files from windows to ubuntu
+    -> mkdir vmShared
+    -> sudo mount -t vboxsf winShared vmShared
+
+
+#9 Install C compiler in VM using virtual&exe Program
+    -> sudo apt update
+    -> sudo apt install build-essential
+    -> sudo apt-get install manpages-dev
+    -> gcc --version
+       ** create hello.c file and run with gcc  - touch hello.c , nano hello.c
+       -> gcc hello.c -o hello
+       -> ./hello 
+
+
+#10 Deploying a sample python application on Google cloud platform app engine.
+    -create project
+    -> gcloud projects list
+    -Enable App Engine Admin API
+    -> gcloud config set project <PROJECT_ID>
+    -> gcloud app create
+    -> 7
+    -> git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+    -> cd appengine
+    -> cd standard-python3 
+    -> cd hello-world
+    -> cat main.py
+    -> pyhton3 main.py
+    -> rm -rf <Gcloud-Codes>   to remove folder
+
+
+#11 Install app engine Create hello world app-python/java
+    - Create project
+    - Enable App Engine Admin API
+    - Open gcloud shell
+    -> git clone https://github.com/Yogeshzade-git/Gcloud-Codes.git
+    -> ls
+    -> cd Gcloud-Codes
+    -> python hello.py
+    -> javac Hello.java
+       java Hello
+
+
+
